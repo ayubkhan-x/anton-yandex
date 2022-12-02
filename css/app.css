@@ -1,0 +1,1201 @@
+.Spinner__base {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1000;
+    align-items: center
+}
+
+.Spinner__root .ant-spin {
+    position: absolute;
+    top: 8px;
+    right: -35px
+}
+
+.BlockHeader {
+    position: relative;
+    margin: 56px auto 0;
+    max-width: 510px
+}
+
+.BlockHeader__title {
+    text-align: center;
+    font-weight: 500 !important
+}
+
+.BlockHeader__description {
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px
+}
+
+.Button {
+    min-width: 125px;
+    border-radius: 4px;
+    margin-left: 5px !important;
+}
+
+.Button__theme_eda {
+    color: #000 !important;
+    background-color: #f8d830 !important;
+    border-color: #f8d830 !important
+}
+
+.Button__theme_eda:hover {
+    background-color: rgba(248, 216, 48, .62) !important;
+    border-color: rgba(248, 216, 48, .62) !important
+}
+
+.Button__theme_eda.bordered {
+    border-color: #f8d830 !important
+}
+
+.Button__theme_lavka {
+    background-color: #3cbfd2 !important;
+    border-color: #3cbfd2 !important
+}
+
+.Button__theme_lavka span {
+    color: #fff !important
+}
+
+.Button__theme_lavka:hover {
+    background-color: rgba(60, 191, 210, .62) !important;
+    border-color: rgba(60, 191, 210, .62) !important
+}
+
+.Button__theme_lavka.bordered {
+    border-color: #3cbfd2 !important
+}
+
+.Button__mobile {
+    min-width: 100px;
+    width: 100%
+}
+
+.Button:disabled {
+    background-color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important
+}
+
+.Button,
+.Button span {
+    font-weight: 300;
+    font-family: YSText, helvetica, arial, sans-serif !important
+}
+
+.Button.ant-btn-default {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    box-shadow: none
+}
+
+.Button:hover:disabled {
+    background-color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important
+}
+
+.DesktopErrorBoundry__wrapper {
+    text-align: center
+}
+
+@media (min-width:1000px) {
+    .DesktopErrorBoundry__wrapper {
+        display: block;
+        min-height: 400px;
+        min-width: 1000px;
+        background: #fff;
+        margin: 124px;
+        border-radius: 16px;
+        padding: 24px
+    }
+}
+
+.DesktopErrorBoundry__wrapper p {
+    font-size: 16px;
+    line-height: 28px
+}
+
+.DesktopErrorBoundry__header {
+    margin-top: 100px
+}
+
+.DesktopErrorBoundry__textBlock {
+    margin: 50px 0 70px
+}
+
+.DesktopErrorBoundry__startButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 106px
+}
+
+.DesktopErrorBoundry__startButtonWrapper {
+    margin: 0 auto 24px
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .DesktopErrorBoundry__startButton {
+        position: absolute;
+        bottom: 0;
+        padding: 0 16px 16px;
+        margin-bottom: 0
+    }
+
+    .DesktopErrorBoundry__startButtonWrapper:first-child {
+        margin-bottom: 24px
+    }
+
+    .DesktopErrorBoundry__startButtonWrapper {
+        margin: 0;
+        width: 100%
+    }
+
+    .DesktopErrorBoundry__startButton button {
+        min-width: 200px !important;
+        width: 100%
+    }
+}
+
+.Block {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.Block__mobileWrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: #fff;
+    padding: 8vh 16px 16px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.Block__mobileWrapper h1 {
+    line-height: 38px;
+    font-size: 30px
+}
+
+.Block__mobileWrapper .ant-typography,
+.Block__mobileWrapper span {
+    color: #262626
+}
+
+.Block__desktopWrapper {
+    justify-content: center;
+    height: 100%;
+    overflow: auto
+}
+
+@media (min-height:961px) {
+    .Block__desktopWrapper {
+        height: 100vh
+    }
+}
+
+.Block__desktopContent {
+    display: block;
+    min-height: 750px;
+    min-width: 1000px;
+    background: #fff;
+    margin: 124px;
+    border-radius: 16px;
+    padding: 56px;
+    position: relative
+}
+
+@media (max-height:960px) {
+    .Block__desktopContent {
+        margin: 3%
+    }
+}
+
+.DesktopAlreadyRegistered__startButton {
+    width: 100%;
+    display: flex;
+    margin-top: 277px
+}
+
+.DesktopAlreadyRegistered__startButtonWrapper {
+    margin: 0 auto 24px
+}
+
+.DesktopAlreadyRegistered__startButtonWrapper :not(:last-child) {
+    margin-bottom: 8px
+}
+
+.MobileAlreadyRegistered__btnWrapper {
+    margin-top: auto;
+    width: 100%;
+    text-align: center
+}
+
+.MobileAlreadyRegistered__btnWrapper :not(:last-child) {
+    margin-bottom: 8px
+}
+
+.Form__desktop {
+    margin: 0 auto;
+    width: 600px
+}
+
+.Form__desktop:nth-child(2) {
+    margin-top: 86px
+}
+
+.Form__mobile {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+}
+
+.LogoIconsWrapper__icon,
+.LogoIconsWrapper__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.LogoIconsWrapper__icon {
+    max-width: 49px
+}
+
+.LogoIconsWrapper__icon img {
+    width: 100%
+}
+
+.LogoIconsWrapper__icon:last-child {
+    margin-right: 0
+}
+
+.CardFooterWrapper__desktopStartButton {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    left: 0
+}
+
+.CardFooterWrapper__desktopStartButtonWrapper {
+    margin: 0 auto
+}
+
+.CardFooterWrapper__mobileBtnWrapper {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 16px 16px
+}
+
+.Citizenship__header {
+    max-width: 500px;
+    margin: 0 auto -20px
+}
+
+.Citizenship__citizenshipSelector {
+    width: 430px;
+    margin: 0 auto 24px
+}
+
+.YandexProIconsWrapper__icon,
+.YandexProIconsWrapper__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.YandexProIconsWrapper__icon_first {
+    position: relative;
+    left: 7px
+}
+
+.YandexProIconsWrapper__icon_last {
+    position: relative;
+    right: 7px
+}
+
+.YandexProIconsWrapper__icon_main {
+    z-index: 1;
+    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, .12))
+}
+
+.EducationEda__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 38px
+}
+
+.EducationEda__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.EducationEda__text:first-child {
+    margin-bottom: 0
+}
+
+.EducationEda__text:nth-child(2) {
+    margin-top: 0
+}
+
+.EducationEda__mobileText {
+    color: #262626
+}
+
+.EducationEda__mobileTextWrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px
+}
+
+.EducationEda__desktopTextWrapper {
+    max-width: 525px;
+    text-align: center;
+    margin-top: 20px
+}
+
+.EducationLavka__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px
+}
+
+.EducationLavka__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.EducationLavka__text:first-child {
+    margin-bottom: 0
+}
+
+.EducationLavka__text:nth-child(2) {
+    margin-top: 0
+}
+
+.EducationLavka__mobileText {
+    color: #262626
+}
+
+.EducationLavka__mobileTextWrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px
+}
+
+.EducationLavka__desktopTextWrapper {
+    max-width: 525px;
+    text-align: center;
+    margin-top: 20px
+}
+
+.EducationNSE__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.EducationNSE__iconComposition {
+    position: relative
+}
+
+.EducationNSE__iconComposition svg:first-child {
+    position: absolute;
+    top: 60px;
+    left: 80px
+}
+
+.EducationNSE__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.EducationNSE__text_mobile {
+    color: #262626
+}
+
+.EducationNSE__textWrapper {
+    max-width: 525px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -12px
+}
+
+.EducationNSE__textWrapper_mobile {
+    width: 100%
+}
+
+.PersonalData__header {
+    max-width: 500px;
+    margin: 0 auto -20px
+}
+
+.PersonalData__mobileBlock {
+    height: fit-content
+}
+
+.PersonalData__mobileForm {
+    width: 100%;
+    margin-top: 60px
+}
+
+.PersonalData__desktopForm {
+    padding-bottom: 110px
+}
+
+.PersonalData__mobileForm {
+    padding-bottom: 48px
+}
+
+.PersonalData__telegramPrefix {
+    color: #bfbfbf
+}
+
+.PersonalData__nextBtn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 -4px 20px rgba(117, 115, 111, .2)
+}
+
+.ant-form-item-has-success .ant-form-item-control .PersonalData__referralCodeFormCode {
+    border-color: #00ca50 !important
+}
+
+.PhoneCheckDesktop__phoneFormCode {
+    width: 70px
+}
+
+.PhoneCheckDesktop__phoneFormPhone {
+    width: 430px
+}
+
+.PhoneCheckDesktop__phoneFormButton {
+    min-width: 154px
+}
+
+.PhoneCheckDesktop__phoneCodeFormCode {
+    width: 269px
+}
+
+.PhoneCheckDesktop__withSpinner {
+    position: relative
+}
+
+.PhoneCheckDesktop__row {
+    display: flex;
+    justify-content: center
+}
+
+.PhoneCheckDesktop__row .ant-input-number-handler-wrap {
+    display: none
+}
+
+.PhoneCheckDesktop__form {
+    margin-top: 86px
+}
+
+.PhoneCheckDesktop__policyWrapper {
+    text-align: center;
+    margin-top: 40px
+}
+
+.PhoneCheckDesktop__policyText {
+    width: 435px;
+    margin: 0 auto
+}
+
+.PhoneCheckDesktop__phoneCodeInputWrapper {
+    margin-right: 10px
+}
+
+.PhoneCheckDesktop__phoneCodeInputWrapper.ant-form-item-with-help {
+    margin-right: 0 !important
+}
+
+.PhoneCheckDesktop__phoneCodeInputWrapper>.ant-form-item-control>.ant-form-item-explain {
+    display: none
+}
+
+.PhoneCheckDesktop__phoneInputWrapper.ant-form-item-with-help {
+    margin-right: 0 !important
+}
+
+.PhoneCheckDesktop__btnWrapper {
+    margin-right: 7px;
+    position: relative
+}
+
+.PhoneCheckDesktop__btnWrapper>span {
+    position: absolute;
+    top: 40px;
+    font-size: 12px;
+    left: 15px
+}
+
+.PhoneCheckMobile__form {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+}
+
+.PhoneCheckMobile__row {
+    display: flex
+}
+
+.PhoneCheckMobile__phoneCodeInputWrapper {
+    width: 54px;
+    margin-right: 8px
+}
+
+.PhoneCheckMobile__phoneInputWrapper {
+    width: 100%
+}
+
+.PhoneCheckMobile__policyWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+.PhoneCheckMobile__policyText {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 1.6
+}
+
+.VehicleType__header {
+    margin-bottom: 110px
+}
+
+.VehicleType__optionsWrapper {
+    display: flex !important;
+    flex-direction: column;
+    padding-left: 190px
+}
+
+.VehicleType__optionsWrapper label {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.VehicleType__optionsWrapper_mobile {
+    padding-left: 24px
+}
+
+.VehicleType__form {
+    margin-top: -30px !important
+}
+
+.VehicleType__helpWrapper {
+    width: 330px;
+    height: 40px;
+    background-color: #fafafa;
+    display: flex !important;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 4px
+}
+
+.VehicleType__helpWrapper span {
+    margin-left: 10px
+}
+
+.VehicleType__helpWrapper svg {
+    margin-left: 16px
+}
+
+.VehicleType__helpWrapper_mobile {
+    border-radius: 4px;
+    width: 100%
+}
+
+.VehicleType__helpWrapper_mobile span {
+    font-size: 3.5vw
+}
+
+.Citizenship__placementSelector {
+    width: 430px;
+    margin: 0 auto 24px
+}
+
+.ServiceDelivery__taxiImage {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.ServiceDelivery__header {
+    max-width: 500px;
+    margin: 56px auto 0
+}
+
+.ServiceDelivery__startButton {
+    width: 100%;
+    display: flex;
+    margin: 20px 0 36px
+}
+
+.ServiceDelivery__startButtonWrapper {
+    margin: 0 auto
+}
+
+.ServiceDelivery__nextBtn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 -4px 20px rgba(117, 115, 111, .2)
+}
+
+.ServiceDelivery__content {
+    width: 450px;
+    margin: 50px auto 80px
+}
+
+.ServiceDelivery__content .ant-list-item-meta {
+    display: flex;
+    align-items: center
+}
+
+.ServiceDelivery__content .ant-list-item-meta-title {
+    margin-bottom: 0
+}
+
+.ServiceDelivery__contentImage {
+    width: 60px;
+    height: 60px
+}
+
+.ServiceDelivery__content_mobile {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 80px
+}
+
+.ServiceEda__header {
+    padding-top: 60px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.ServiceEda__startButton {
+    width: 100%;
+    display: flex;
+    margin: 20px 0 36px
+}
+
+.ServiceEda__startButtonWrapper {
+    margin: 0 auto
+}
+
+.ServiceEda__content {
+    width: 450px;
+    margin: 50px auto 80px
+}
+
+.ServiceEda__content .ant-list-item-meta {
+    display: flex;
+    align-items: center
+}
+
+.ServiceEda__content .ant-list-item-meta-title {
+    margin-bottom: 0
+}
+
+.ServiceEda__contentImage {
+    width: 60px;
+    height: 60px
+}
+
+.ServiceEda__content_mobile {
+    width: 100%;
+    margin-bottom: 0
+}
+
+.MobileSteps {
+    list-style-type: none;
+    padding-left: 0;
+    align-self: flex-start;
+    margin-top: 40px
+}
+
+.MobileSteps__listItemWithLines {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center
+}
+
+.MobileSteps__listItemWithLines:not(:last-child) .MobileSteps__index:after {
+    background-color: #f8d830 !important;
+    width: 2px;
+    height: 80%;
+    content: " ";
+    position: absolute;
+    top: 120%
+}
+
+.MobileSteps__listItem {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center
+}
+
+.MobileSteps__index {
+    min-width: 40px;
+    max-width: 40px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    max-height: 40px;
+    align-items: center;
+    border-radius: 50%;
+    background: #f8d830;
+    box-shadow: 0 8px 16px rgba(248, 216, 48, .25);
+    position: relative
+}
+
+.MobileSteps__textWrapper {
+    display: flex;
+    flex-direction: column
+}
+
+.MobileSteps__description {
+    color: #8c8c8c !important
+}
+
+.SelfEmployedStart__list {
+    margin-top: 50px
+}
+
+.SelfEmployedStart__list .ant-row {
+    display: flex;
+    justify-content: space-between
+}
+
+.SelfEmployedStart__list .ant-list-item-meta-title {
+    color: #262626
+}
+
+.SelfEmployedStart__avatar {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8d830;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.SelfEmployedStart__steps {
+    margin-bottom: 0
+}
+
+.SelfEmployedStep2__checkboxWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 0 20px
+}
+
+.SelfEmployedStep2__checkboxWrapper label:nth-child(n) {
+    margin-bottom: 20px
+}
+
+.SelfEmployedStep2__checkboxWrapper a {
+    color: #0596fa
+}
+
+.SelfEmployedStep3__dropdown {
+    width: 90% !important
+}
+
+.SelfEmployedStep3__dropdown .ant-select-item-option-content {
+    white-space: normal !important;
+    border-bottom: 1px solid #d9d9d9
+}
+
+.SelfEmployedStep3__wrapper {
+    padding-bottom: 100px
+}
+
+.SelfEmployedStep3__nextBtn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 -4px 20px rgba(117, 115, 111, .2)
+}
+
+.SelfEmployedStep5__wrapper {
+    padding-bottom: 100px
+}
+
+.SelfEmployedStep5__nextBtn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 -4px 20px rgba(117, 115, 111, .2)
+}
+
+.Download__container,
+.SelfEmployed__contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.Download__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.Download__textWrapper {
+    max-width: 525px;
+    text-align: center;
+    margin-top: 40px
+}
+
+.GoToProDesktop__header {
+    max-width: 500px;
+    margin: 30px auto 0
+}
+
+.GoToProDesktop__header .GoToProDesktop__title {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center
+}
+
+.GoToProDesktop__header .GoToProDesktop__description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center
+}
+
+.GoToProDesktop__list-qr {
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    margin: 34px auto 0;
+    padding: 0 18px 0 10px
+}
+
+.GoToProDesktop__list {
+    width: 100%
+}
+
+.GoToProDesktop__list .GoToProDesktop__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px
+}
+
+.GoToProDesktop__list .GoToProDesktop__list-item .ant-list-item-meta-avatar {
+    margin-right: 10px
+}
+
+.GoToProDesktop__list .GoToProDesktop__list-item .ant-list-item-meta-title {
+    margin: -5px 0 0
+}
+
+.GoToProDesktop__qr {
+    flex-shrink: 0
+}
+
+.GoToProDesktop__qr-image {
+    width: 167px;
+    height: 167px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.GoToProDesktop__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 335px;
+    margin: 35px auto 20px
+}
+
+.GoToProDesktop__footer-text {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center
+}
+
+.GoToProDesktop__available-in-google {
+    display: block
+}
+
+.GoToProMobile__header {
+    max-width: 450px;
+    margin: 40px auto 16px
+}
+
+.GoToProMobile__header .GoToProMobile__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center
+}
+
+.GoToProMobile__header .GoToProMobile__description {
+    margin: 0;
+    padding: 0 5px 0 28px;
+    font-size: 16px;
+    line-height: 1.5
+}
+
+.GoToProMobile__list {
+    display: block;
+    max-width: 330px;
+    width: 100%
+}
+
+.PhoneCheckStart__form {
+    justify-content: space-between
+}
+
+.PhoneCheckStart__repeatBtnWrapper {
+    width: 100%
+}
+
+.PhoneCheckStart__repeatBtnWrapper button {
+    min-width: 125px;
+    width: 100%;
+    background-color: #fff !important
+}
+
+.PhoneCheckStart__repeatBtnWrapper button:hover {
+    background-color: #fff !important
+}
+
+.PhoneCheckStart__phoneCodeFormCode {
+    width: 100%;
+    margin-right: 8px
+}
+
+.PhoneCheckStart__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    padding-bottom: 140px
+}
+
+.PhoneCheckStart__row {
+    display: flex
+}
+
+.PhoneCheckStart__phoneCodeInputWrapper {
+    width: 54px;
+    margin-right: 8px
+}
+
+.PhoneCheckStart__phoneInputWrapper {
+    width: 100%
+}
+
+.PhoneCheckStart__policyWrapper {
+    width: 80%;
+    margin: 0 auto 20px
+}
+
+.PhoneCheckStart__policyText {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 1.6
+}
+
+.PhoneCheckStart__stickyBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.MainWrapper__layout {
+    min-height: 100vh;
+    background: #f6f6f6
+}
+
+.MainWrapper__mobileLayout {
+    height: 100vh;
+    background: #f6f6f6
+}
+
+body,
+html {
+    margin: 0;
+    font-family: YSText, helvetica, arial, sans-serif;
+    height: 100%;
+    width: 100%
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+.ant-form-item-control.has-feedback .ant-input-suffix {
+    right: 25px !important
+}
+
+.ant-input-focused,
+.ant-input-hovered,
+.ant-input-number-focused,
+.ant-input-number-hovered,
+.ant-input-number-input:hover,
+.ant-input-number:hover,
+.ant-input:hover,
+.ant-select-open,
+.ant-select-selector-focused,
+.ant-select-selector-hovered,
+.ant-select-selector:active,
+.ant-select-selector:focus,
+.ant-select-selector:hover {
+    border-color: #f8d830 !important;
+    border-right-width: 1px !important;
+    box-shadow: none !important
+}
+
+.ant-input,
+.ant-input-number,
+.ant-select-selector {
+    border-radius: 4px !important
+}
+
+.ant-radio-wrapper:hover .ant-radio {
+    border-color: #fcb900 !important;
+    color: #fcb900 !important
+}
+
+.ant-radio-checked .ant-radio-inner {
+    border-color: #fcb900 !important
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+    background-color: #fcb900 !important
+}
+
+.ant-radio-input:focus+.ant-radio-inner {
+    box-shadow: none
+}
+
+.ant-radio-checked:after {
+    animation: none;
+    animation-fill-mode: none;
+    border: 0
+}
+
+.ant-radio-input:focus+.ant-radio-inner,
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner {
+    border-color: #f8d830
+}
+
+.ant-checkbox-input:focus+.ant-checkbox-inner,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+    border-color: #fcb900 !important
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #fcb900 !important;
+    border-color: #fcb900 !important
+}
+
+.ant-checkbox-checked:after {
+    border: 0
+}
+
+.ant-checkbox-inner:after {
+    animation: none;
+    animation-fill-mode: none
+}
+
+.ant-select-focused.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border-color: #f8d830 !important;
+    box-shadow: none
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: rgba(248, 216, 48, .5)
+}
+
+.ant-form-item-has-error {
+    margin-bottom: 24px
+}
+
+.ant-form-item-has-error>.ant-form-item-control {
+    position: relative
+}
+
+.ant-form-item-has-error>.ant-form-item-control>.ant-form-item-explain {
+    position: absolute;
+    top: 100%
+}
+
+.ant-form-item-has-error>.ant-form-item-control .anticon-close-circle,
+.ant-form-item-has-error>.ant-form-item-control>.ant-form-item-extra {
+    color: #ff4d4f
+}
+
+.ant-input-focused,
+.ant-input:focus,
+.ant-picker-focused {
+    border-color: #f8d830 !important;
+    box-shadow: none !important
+}
+
+.ant-picker-focused,
+.ant-picker:hover {
+    border-color: #f8d830 !important
+}
+
+.ant-btn:focus,
+.ant-btn:hover {
+    background: #fff
+}
